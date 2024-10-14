@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="40a846835da84469a4b75cff995d7ab9" Name="Diagram1">
+        <EntityTypeShape EntityType="AvtoProkatModel.Автомобили" Width="1.5" PointX="3" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AvtoProkatModel.АрендованныеАвто" Width="1.5" PointX="5.25" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AvtoProkatModel.ВходПользователи" Width="1.5" PointX="5.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AvtoProkatModel.Клиенты" Width="1.5" PointX="3" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AvtoProkatModel.МаркиАвтомобиля" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="AvtoProkatModel.СистемаШтрафов" Width="1.5" PointX="0.75" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AvtoProkatModel.Скидка" Width="1.5" PointX="3" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AvtoProkatModel.ТипАвтомобиля" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AvtoProkatModel.ТипКПП" Width="1.5" PointX="0.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AvtoProkatModel.Штрафы" Width="1.5" PointX="3" PointY="15.375" IsExpanded="true" />
+        <AssociationConnector Association="AvtoProkatModel.FK_Автомобили_МаркиАвтомобиля" ManuallyRouted="false" />
+        <AssociationConnector Association="AvtoProkatModel.FK_Автомобили_ТипАвтомобиля" ManuallyRouted="false" />
+        <AssociationConnector Association="AvtoProkatModel.FK_Автомобили_ТипКПП" ManuallyRouted="false" />
+        <AssociationConnector Association="AvtoProkatModel.FK_АрендованныеАвто_Автомобили" ManuallyRouted="false" />
+        <AssociationConnector Association="AvtoProkatModel.FK_АрендованныеАвто_Клиенты" ManuallyRouted="false" />
+        <AssociationConnector Association="AvtoProkatModel.FK_АрендованныеАвто_Скидка" ManuallyRouted="false" />
+        <AssociationConnector Association="AvtoProkatModel.FK_АрендованныеАвто_Штрафы" ManuallyRouted="false" />
+        <AssociationConnector Association="AvtoProkatModel.FK_Штрафы_СистемаШтрафов1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
